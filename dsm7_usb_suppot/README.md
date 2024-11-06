@@ -1,11 +1,11 @@
-## Website
+# Website
 https://web.archive.org/web/20211027124225/http://www.jadahl.com/iperf-arp-scan/DSM_7.0/
 
 # Youtube
 https://www.youtube.com/watch?v=A2WmzU8N-38&t=93s
 
-
-# SSH to DSM and compiled USB Modules
+#How to enable USB0 for DS423+
+## SSH to DSM and compiled USB Modules
 
 sudo su
 
@@ -28,7 +28,7 @@ sudo wget https://github.com/robertklep/dsm7-usb-serial-drivers/raw/refs/heads/m
 sudo insmod /lib/modules/ti_usb_3410_5052.ko
 
 
-# Run loadzigbeeonboot script 
+## Run loadzigbeeonboot script 
 
 #loadzigbeeonboot script
 modprobe usbserial

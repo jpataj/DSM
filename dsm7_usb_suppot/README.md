@@ -31,6 +31,8 @@ sudo insmod /lib/modules/ti_usb_3410_5052.ko
 ## Run loadzigbeeonboot script 
 
 #loadzigbeeonboot script
+
+
 modprobe usbserial
 modprobe ftdi_sio
 modprobe cdc-acm

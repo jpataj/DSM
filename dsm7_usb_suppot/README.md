@@ -30,7 +30,7 @@ sudo insmod /lib/modules/ti_usb_3410_5052.ko
 
 ## Run loadzigbeeonboot script 
 
-#loadzigbeeonboot script
+#loadzigbeeonboot script - https://github.com/jpataj/DSM/blob/main/dsm7_usb_suppot/loadZigbeeOnBoot.sh
 
 
 modprobe usbserial
